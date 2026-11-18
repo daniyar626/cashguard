@@ -25,7 +25,7 @@ from app.training import (COST_FN, COST_FP, Video, f_beta, fit, folds, load_base
 OUT = ROOT / "ml" / "reports"
 FIG = OUT / "figures"
 ROBUST_STEP = 1.0
-BRAND, GREY, INK = "#A3134A", "#9C8E96", "#1B1420"
+BRAND, GREY, INK = "#3B4CCA", "#8E93A6", "#141826"
 
 
 def perturb(name: str, frame: np.ndarray, seed: int) -> np.ndarray:

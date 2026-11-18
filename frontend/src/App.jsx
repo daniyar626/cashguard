@@ -162,9 +162,8 @@ export default function App() {
       <div className="app">
         <header className="topbar">
           <button type="button" className="brand" onClick={() => go('analyze')}>
-            <span className="logo">forte<span>.</span></span>
-            <span className="brand-sep" />
-            <span className="brand-name">CashGuard</span>
+            <span className="logo-mark" aria-hidden="true"><Icon name="shield" size={19} strokeWidth={2.2} /></span>
+            <span className="brand-name">Cash<span>Guard</span></span>
           </button>
           <nav className={`nav${menu ? ' is-open' : ''}`}>
             {nav.map(([v, key]) => (
